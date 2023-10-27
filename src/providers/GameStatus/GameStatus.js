@@ -1,6 +1,6 @@
 import React from "react";
 import { MAX_MISTAKES } from "../../lib/constants";
-import { PuzzleDataContext } from "../PuzzleDataProvider";
+import { PuzzleDataContext } from "../PuzzleData";
 import {
     loadGameStateFromLocalStorage,
     saveGameStateToLocalStorage,

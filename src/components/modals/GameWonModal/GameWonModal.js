@@ -4,7 +4,7 @@ import BaseModal from "../BaseModal";
 import { generateEmojiGrid } from "../../../lib/game-helpers";
 import ShareScoreButton from "../../ShareScore";
 import CountdownToNextPuzzle from "../../Countdown";
-import { PuzzleDataContext } from "../../../providers/PuzzleDataProvider";
+import { PuzzleDataContext } from "../../../providers/PuzzleData";
 
 function GameWonModal({ open, submittedGuesses }) {
     const { gameData } = React.useContext(PuzzleDataContext);

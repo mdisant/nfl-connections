@@ -2,7 +2,7 @@ import React from "react";
 import { range } from "../../lib/utils";
 import { Circle, CircleSlash } from "lucide-react";
 import { MAX_MISTAKES } from "../../lib/constants";
-import { GameStatusContext } from "../../providers/GameStatusProvider";
+import { GameStatusContext } from "../../providers/GameStatus";
 
 function SingleMistakeDisplay({ isUsed }) {
     return (

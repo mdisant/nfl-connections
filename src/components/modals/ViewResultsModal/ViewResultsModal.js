@@ -4,8 +4,8 @@ import { generateEmojiGrid } from "../../../lib/game-helpers";
 import CountdownToNextPuzzle from "../../Countdown";
 import ShareScoreButton from "../../ShareScore";
 import BaseModal from "../BaseModal";
-import { GameStatusContext } from "../../../providers/GameStatusProvider";
-import { PuzzleDataContext } from "../../../providers/PuzzleDataProvider";
+import { GameStatusContext } from "../../../providers/GameStatus";
+import { PuzzleDataContext } from "../../../providers/PuzzleData";
 import { Button } from "../../ui/button";
 
 function ViewResultsModal() {

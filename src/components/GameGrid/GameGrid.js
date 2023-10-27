@@ -2,11 +2,11 @@ import React from "react";
 
 import WordButton from "../WordButton";
 
-import * as styles from "./GameGrid.module.css";
+import styles from "./GameGrid.module.css";
 
 import { useSpring, animated } from "react-spring";
-import { PuzzleDataContext } from "../../providers/PuzzleDataProvider";
-import { GameStatusContext } from "../../providers/GameStatusProvider";
+import { PuzzleDataContext } from "../../providers/PuzzleData";
+import { GameStatusContext } from "../../providers/GameStatus";
 
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Badge } from "../ui/badge";

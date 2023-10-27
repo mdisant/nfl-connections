@@ -8,8 +8,8 @@ import {
     shuffleGameData,
 } from "../../lib/game-helpers";
 
-import { GameStatusContext } from "../../providers/GameStatusProvider";
-import { PuzzleDataContext } from "../../providers/PuzzleDataProvider";
+import { GameStatusContext } from "../../providers/GameStatus";
+import { PuzzleDataContext } from "../../providers/PuzzleData";
 
 function GameControlButtonsPanel({
     shuffledRows,

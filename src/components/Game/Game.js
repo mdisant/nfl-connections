@@ -7,8 +7,8 @@ import GameWonModal from "../modals/GameWonModal";
 
 import { Separator } from "../ui/separator";
 
-import { PuzzleDataContext } from "../../providers/PuzzleDataProvider";
-import { GameStatusContext } from "../../providers/GameStatusProvider";
+import { PuzzleDataContext } from "../../providers/PuzzleData";
+import { GameStatusContext } from "../../providers/GameStatus";
 import GameControlButtonsPanel from "../GameButtons";
 
 import ViewResultsModal from "../modals/ViewResultsModal";
@@ -24,7 +24,6 @@ function Game() {
     );
     const [isEndGameModalOpen, setisEndGameModalOpen] = React.useState(false);
     const [gridShake, setGridShake] = React.useState(false);
-    const [showConfetti, setShowConfetti] = React.useState(false);
 
     // use effect to update Game Grid after a row has been correctly solved
     React.useEffect(() => {
@@ -44,17 +43,10 @@ function Game() {
         if (!isGameOver) {
             return;
         }
-        // extra delay for game won to allow confetti to show
         const modalDelay = isGameWon ? 2000 : 250;
         const delayModalOpen = window.setTimeout(() => {
             setisEndGameModalOpen(true);
-            //unmount confetti after modal opens
-            setShowConfetti(false);
         }, modalDelay);
-
-        if (isGameWon) {
-            setShowConfetti(true);
-        }
 
         return () => window.clearTimeout(delayModalOpen);
     }, [isGameOver]);
@@ -82,15 +74,6 @@ function Game() {
                     shouldGridShake={gridShake}
                     setShouldGridShake={setGridShake}
                 />
-                {showConfetti && isGameOver && (
-                    <div className="grid place-content-center">
-                        <ConfettiExplosion
-                            particleCount={100}
-                            force={0.8}
-                            duration={2500}
-                        />
-                    </div>
-                )}
                 <Separator />
 
                 {!isGameOver ? (

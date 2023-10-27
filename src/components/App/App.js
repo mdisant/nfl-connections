@@ -3,8 +3,8 @@ import Header from "../Header";
 import Game from "../Game";
 
 import { Toaster } from "../ui/toaster";
-import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
-import GameStatusProvider from "../../providers/GameStatusProvider";
+import PuzzleDataProvider from "../../providers/PuzzleData";
+import GameStatusProvider from "../../providers/GameStatus";
 
 function App() {
     return (

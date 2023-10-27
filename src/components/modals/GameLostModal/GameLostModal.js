@@ -3,7 +3,7 @@ import BaseModal from "../BaseModal";
 import { SolvedWordRow } from "../../GameGrid";
 import ShareScoreButton from "../../ShareScore";
 import CountdownToNextPuzzle from "../../Countdown";
-import { PuzzleDataContext } from "../../../providers/PuzzleDataProvider";
+import { PuzzleDataContext } from "../../../providers/PuzzleData";
 
 function GameLostModal({ open }) {
     const { gameData } = React.useContext(PuzzleDataContext);

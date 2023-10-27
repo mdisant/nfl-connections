@@ -3,8 +3,8 @@ import { cn } from "../../lib/utils";
 import { Button } from "../ui/button";
 import { useToast } from "../ui/use-toast";
 import { shareStatus } from "../../lib/share-game";
-import { GameStatusContext } from "../../providers/GameStatusProvider";
-import { PuzzleDataContext } from "../../providers/PuzzleDataProvider";
+import { GameStatusContext } from "../../providers/GameStatus";
+import { PuzzleDataContext } from "../../providers/PuzzleData";
 
 function ShareScoreButton({ buttonText = "Share", className = "" }) {
     const { gameData } = React.useContext(PuzzleDataContext);

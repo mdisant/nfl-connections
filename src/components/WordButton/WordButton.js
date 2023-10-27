@@ -1,8 +1,8 @@
 import React from "react";
-import * as styles from "./WordButton.module.css";
+import styles from "./WordButton.module.css";
 import { Toggle } from "../ui/toggle";
 
-import { GameStatusContext } from "../../providers/GameStatusProvider";
+import { GameStatusContext } from "../../providers/GameStatus";
 
 function WordButton({ word, fullCandidateSize }) {
     const { guessCandidate, setGuessCandidate } =
@@ -11,7 +11,7 @@ function WordButton({ word, fullCandidateSize }) {
         !!guessCandidate.includes(word)
     );
 
-    const isCandidateListFull = guessCandidate.length == fullCandidateSize;
+    const isCandidateListFull = guessCandidate.length === fullCandidateSize;
 
     React.useEffect(() => {
         setIsSelected(!!guessCandidate.includes(word));
