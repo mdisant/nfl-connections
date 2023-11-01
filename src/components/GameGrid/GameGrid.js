@@ -51,7 +51,7 @@ export function SolvedWordRow({ ...props }) {
             {!isImageAvailable ? (
                 <div style={{ backgroundColor: color, borderRadius: 8 }}>
                     <p className="text-center font-bold pt-4">{props.category}</p>
-                    <p className="text-center font-normal pb-4">{props.words.join(" - ")}</p>
+                    <p className="text-center font-normal pb-4 px-2">{props.words.join(" - ")}</p>
                 </div>
             ) : (
                 <Popover>
@@ -67,7 +67,7 @@ export function SolvedWordRow({ ...props }) {
                                 </Badge>
                             )}
                             <p className="text-center font-bold pt-4">{props.category}</p>
-                            <p className="text-center font-normal pb-4">{props.words.join(" - ")}</p>
+                            <p className="text-center font-normal pb-4 px-2">{props.words.join(" - ")}</p>
                         </div>
                     </PopoverTrigger>
                 </Popover>
