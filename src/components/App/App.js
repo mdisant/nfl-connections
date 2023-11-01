@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import Game from "../Game";
+import HowToPlayPopup from '../HowToPlayPopup';
 
 import { Toaster } from "../ui/toaster";
 import PuzzleDataProvider from "../../providers/PuzzleData";
@@ -14,6 +15,7 @@ function App() {
                 <div className="wrapper">
                     <Toaster />
                     <Header />
+                    <HowToPlayPopup />
                     <Game />
                     <Footer />
                 </div>
