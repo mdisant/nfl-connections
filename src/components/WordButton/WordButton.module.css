@@ -1,50 +1,13 @@
 .selected {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .growShrink {
-    /*Tell this element which properties to animate if something changes
+  /*Tell this element which properties to animate if something changes
     We are saying all properties will animate when changed seconds*/
-    transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .growShrink[data-state="on"] {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-
-/* .button {
-    padding: 8px 8px;
-    gap: 4px;
-    border: none;
-    border-radius: 4px;
-    background: gray;
-    color: white;
-    font-weight: 600;
-    font-size: 1.25rem;
-    cursor: pointer;
-    outline-offset: 4px;
-  }
-  
-  .item:hover {
-    cursor: pointer;
-  }
-  
-  .item {
-    width: 24px;
-    max-width: 48px;
-    min-width: 20px;
-    min-height: 70px;
-    height: 22.5vw;
-    max-height: 22.5vw;
-    font-size: 15px;
-    background-color: grey;
-    color: black;
-    outline: none;
-    text-align: center;
-    font-family: "NYT-Franklin";
-    font-weight: bold;
-    border-radius: 6px;
-    z-index: 0;
-    position: absolute;
-    transition: opacity 0.4s ease;
-  } */

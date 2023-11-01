@@ -71,7 +71,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      "space-mono": ["Space Mono"],
+      'forma-djr-display': ["forma-djr-display", 'sans'],
+      'helvetica': ["Helvetica", "sans-serif"],
     },
   },
   plugins: [require("tailwindcss-animate")],

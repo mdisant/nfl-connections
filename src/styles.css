@@ -39,9 +39,10 @@ body {
 
 header {
     display: flex;
+    align-items: center;
     height: var(--header-height);
-    border-bottom: 1px solid var(--color-gray-700);
-    color: var(--color-gray-300);
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 header .side {
@@ -52,7 +53,7 @@ header .side {
 
 h1 {
     flex: 1;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: var(--header-height);
     text-align: center;
 }

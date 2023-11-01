@@ -37,22 +37,6 @@ function WordButton({ word, fullCandidateSize }) {
         }
     }
 
-    //const fontSizeByWordLength = 9characters works with 0.6rem
-
-    function getFontSize(word) {
-        const baseLength = 7;
-        const wordLength = word.length;
-        let fontSize = 1;
-        if (wordLength > baseLength) {
-            const numExtraChars = wordLength - baseLength;
-            fontSize = fontSize - numExtraChars * 0.1;
-            fontSize = Math.max(0.5, fontSize);
-            return `${fontSize}em`;
-        } else {
-            return null;
-        }
-    }
-    // word = "washingtonian";
     return (
         <Toggle
             className={`${styles.growShrink} select-none`}
@@ -61,8 +45,8 @@ function WordButton({ word, fullCandidateSize }) {
             onClick={flipSelection}
         >
             <p
-                style={{ fontSize: getFontSize(word) }}
-                className="font-space-mono uppercase sm:text-xs md:text-xs"
+                style={{ fontSize: "0.75rem" }}
+                className="font-helvetica sm:text-xs md:text-xs"
             >
                 {word}
             </p>

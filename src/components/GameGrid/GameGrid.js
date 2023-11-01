@@ -8,7 +8,7 @@ import { useSpring, animated } from "react-spring";
 import { PuzzleDataContext } from "../../providers/PuzzleData";
 import { GameStatusContext } from "../../providers/GameStatus";
 
-import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+import { Popover, PopoverTrigger } from "../ui/popover";
 import { Badge } from "../ui/badge";
 
 function WordRow({ words }) {
@@ -23,10 +23,10 @@ function WordRow({ words }) {
 
 export function SolvedWordRow({ ...props }) {
     const DIFFICULTY_COLOR_MAP = {
-        1: "rgb(74 222 128)", // green
-        2: "rgb(251 191 36)", // amber
-        3: "rgb(129 140 248)", //indigo
-        4: "rgb(34 211 238)", //cyan
+        1: "rgb(244 196 48)", // yellow
+        2: "rgb(79 121 66)", // green
+        3: "rgb(0 71 171)", // blue
+        4: "rgb(255 0 255)", // purple
     };
 
     const color = `${DIFFICULTY_COLOR_MAP[props.difficulty]}`;
@@ -50,8 +50,8 @@ export function SolvedWordRow({ ...props }) {
         <animated.div style={springProps}>
             {!isImageAvailable ? (
                 <div style={{ backgroundColor: color, borderRadius: 8 }}>
-                    <p className="font-bold pt-2 pl-4">{props.category}</p>
-                    <p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p>
+                    <p className="text-center font-bold pt-4">{props.category}</p>
+                    <p className="text-center font-normal pb-4">{props.words.join(" - ")}</p>
                 </div>
             ) : (
                 <Popover>
@@ -66,15 +66,10 @@ export function SolvedWordRow({ ...props }) {
                                     View More
                                 </Badge>
                             )}
-                            <p className="font-bold pt-2 pl-4">{props.category}</p>
-                            <p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p>
+                            <p className="text-center font-bold pt-4">{props.category}</p>
+                            <p className="text-center font-normal pb-4">{props.words.join(" - ")}</p>
                         </div>
                     </PopoverTrigger>
-                    <PopoverContent>
-                        <div>
-                            <img src={props.imageSrc} />
-                        </div>
-                    </PopoverContent>
                 </Popover>
             )}
         </animated.div>
@@ -106,7 +101,7 @@ function GameGrid({ gameRows, shouldGridShake, setShouldGridShake }) {
     return (
         <div>
             {(isGameOverAndWon || isGameActiveWithAnySolvedRows) && (
-                <div className="grid gap-y-2 pb-2">
+                <div className="grid gap-y-3 pb-5">
                     {solvedGameData.map((solvedRowObj) => (
                         <SolvedWordRow key={solvedRowObj.category} {...solvedRowObj} />
                     ))}

@@ -81,7 +81,7 @@ function GameControlButtonsPanel({
                     label: "Notification",
                     title: "Close Guess",
                     description:
-                        "You were one guess away from correctly guessing a category!",
+                        "One away!",
                 });
             }
         }
