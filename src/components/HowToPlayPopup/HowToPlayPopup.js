@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Typography } from '@mui/material';
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Typography, List } from '@mui/material';
 
 function HowToPlayPopup() {
     const [open, setOpen] = useState(true);
@@ -21,20 +21,38 @@ function HowToPlayPopup() {
                 How to Play
             </Button>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>Quomodo Ludere</DialogTitle>
+                <DialogTitle>Welcome to the NFL-themed version of connections!</DialogTitle>
                 <DialogContent>
                     <Typography variant="body1">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac tortor ac justo pulvinar dapibus. Vestibulum volutpat turpis sit amet sapien facilisis, in viverra dolor tempor. Proin feugiat quam in tincidunt fermentum.
                     </Typography>
                     <Typography variant="body1">
-                        Phasellus eget eros eget lorem tincidunt tincidunt. Nunc id justo et elit eleifend bibendum. Suspendisse euismod semper lorem, sit amet bibendum sapien bibendum sit amet.
+                        Your mission is to identify groups of four items that share a common connection within the world of NFL.
+
+                        Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate.
+
+                        The challenge is to identify these groups without making four incorrect guesses. Stay sharp!
                     </Typography>
-                    <Typography variant="body1">
-                        In ullamcorper erat id est fringilla, non volutpat velit condimentum. Curabitur dignissim diam ac tincidunt accumsan. Suspendisse hendrerit, arcu ut vulputate.
+                    <Typography variant="body1">-</Typography>
+                    <Typography variant="body2">
+                        Category Examples:
+                        <ul>
+                            <li>NFL QUARTERBACKS: Tom Brady, Peyton Manning, Joe Montana, Brett Favre</li>
+                            <li>SUPER BOWL WINNERS: New England Patriots, Pittsburgh Steelers, San Francisco 49ers, Green Bay Packers</li>
+                        </ul>
+                    </Typography>
+                    <Typography variant="body1">-</Typography>
+                    <Typography variant="body2">
+                        Each group is assigned a color, which will be revealed as you solve:
+                        <ul>
+                            <li>Straightforward = 🟨</li>
+                            <li>Medium = 🟩</li>
+                            <li>Hard = 🟦</li>
+                            <li>Tricky = 🟪</li>
+                        </ul>
                     </Typography>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose} color="primary">
+                    <Button onClick={handleClose} color="primary" class="bg-[#10172A] hover:bg-[#0C1425] text-white p-2 rounded">
                         Close
                     </Button>
                 </DialogActions>
