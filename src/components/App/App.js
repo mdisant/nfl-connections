@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Footer from "../Footer";
 import Game from "../Game";
 
 import { Toaster } from "../ui/toaster";
@@ -14,6 +15,7 @@ function App() {
                     <Toaster />
                     <Header />
                     <Game />
+                    <Footer />
                 </div>
             </GameStatusProvider>
         </PuzzleDataProvider>
