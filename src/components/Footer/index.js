@@ -1,2 +1,2 @@
-export * from './Header';
-export { default } from './Header';
+export * from './Footer';
+export { default } from './Footer';

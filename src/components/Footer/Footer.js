@@ -5,24 +5,38 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Footer() {
     return (
-        <div className="footer">
-            <div className='socialMedia'>
-                <a href="https://twitter.com/TheMikeDiSanto" target="_blank" rel="noopener noreferrer">
-                    <TwitterIcon />
+        <div className="#030711 text-white p-4">
+            <div className="flex justify-center space-x-4 mb-4">
+                <a
+                    href="https://twitter.com/TheMikeDiSanto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <TwitterIcon className="white hover:text-blue-300" />
                 </a>
-                <a href="https://www.linkedin.com/in/mpdisanto/" target="_blank" rel="noopener noreferrer">
-                    <LinkedInIcon />
+                <a
+                    href="https://www.linkedin.com/in/mpdisanto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <LinkedInIcon className="white hover:text-blue-300" />
                 </a>
-                <a href="https://github.com/mdisant" target="_blank" rel="noopener noreferrer">
-                    <GitHubIcon />
+                <a
+                    href="https://github.com/mdisant"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <GitHubIcon className="white hover:text-blue-300" />
                 </a>
             </div>
-            <div className="contactInfo">
-                mikepdi@yahoo.com | 914-403-1696
+            <div className="text-center">
+                <a href="mailto:mikepdi@yahoo.com" className="white hover:underline">
+                    mikepdi@yahoo.com
+                </a>
             </div>
-            <p> &copy; 2023 Michael Pierce DiSanto. All rights reserved.</p>
         </div>
     );
 }
+
 
 export default Footer;
