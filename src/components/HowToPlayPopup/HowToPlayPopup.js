@@ -21,7 +21,7 @@ function HowToPlayPopup() {
                 How to Play
             </Button>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>Welcome to the NFL-themed version of connections!</DialogTitle>
+                <DialogTitle>Welcome to the NFL Connections!</DialogTitle>
                 <DialogContent>
                     <Typography variant="body1">
                     </Typography>
