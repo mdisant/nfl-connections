@@ -3,7 +3,7 @@
 */
 
 html {
-    overflow: scroll;
+    overflow-y: scroll;
     --game-spacing: 32px;
     --header-height: 6rem;
 
