@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# NFL Connections
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NFL version of the popular Connections New York Times game.
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- DESCRIPTION -->
+## Description
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-
 
-### `npm test`
+Category Examples:
+NFL QUARTERBACKS: Tom Brady, Peyton Manning, Joe Montana, Brett Favre
+SUPER BOWL WINNERS: New England Patriots, Pittsburgh Steelers, San Francisco 49ers, Green Bay Packers
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-
 
-### `npm run build`
+Each group is assigned a color, which will be revealed as you solve:
+Straightforward = 🟨
+Medium = 🟩
+Hard = 🟦
+Tricky = 🟪
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- LICENSE -->
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<!-- CONTACT -->
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Michael DiSanto - [@themikedisanto](https://twitter.com/themikedisanto) - mikepdi@yahoo.com - [www.michaelpdisanto.com](https://www.michaelpdisanto.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project Link: [https://github.com/mdisant/nfl-conections](https://github.com/mdisant/nfl-connections)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Acknowledgments -->
+## Acknowledgments
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inspiration for this project:
+* [react-conections-game](https://github.com/and-computers/react-connections-game)
+* [New York Times: Connections](https://www.nytimes.com/games/connections)
