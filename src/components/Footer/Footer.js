@@ -30,9 +30,17 @@ function Footer() {
                 </a>
             </div>
             <div className="text-center">
-                <a href="mailto:mikepdi@yahoo.com" className="white hover:underline">
+                <a href="mailto:mikepdi@yahoo.com" className="white hover:underline" target="_blank" rel="noopener noreferrer">
                     mikepdi@yahoo.com
                 </a>
+            </div>
+            <div className="text-center">
+                <a href="https://www.michaelpdisanto.com/" className="white hover:underline" target="_blank" rel="noopener noreferrer">
+                    www.michaelpdisanto.com
+                </a>
+            </div>
+            <div className="text-center text-white pt-6 text-sm">
+                version 1.0
             </div>
         </div>
     );
