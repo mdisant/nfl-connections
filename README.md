@@ -9,13 +9,13 @@ NFL version of the popular Connections New York Times game.
 
 Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp!
 
--
+---
 
 Category Examples:
 NFL QUARTERBACKS: Tom Brady, Peyton Manning, Joe Montana, Brett Favre
 SUPER BOWL WINNERS: New England Patriots, Pittsburgh Steelers, San Francisco 49ers, Green Bay Packers
 
--
+---
 
 Each group is assigned a color, which will be revealed as you solve:
 Straightforward = 🟨
