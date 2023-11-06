@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nfl-connections/static/css/main.eab93256.css",
+    "main.js": "/nfl-connections/static/js/main.c0b51a47.js",
+    "index.html": "/nfl-connections/index.html",
+    "main.eab93256.css.map": "/nfl-connections/static/css/main.eab93256.css.map",
+    "main.c0b51a47.js.map": "/nfl-connections/static/js/main.c0b51a47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eab93256.css",
+    "static/js/main.c0b51a47.js"
+  ]
+}
