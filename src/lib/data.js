@@ -57,7 +57,7 @@ export const CONNECTION_GAMES = [
             difficulty: 2,
         },
         {
-            category: "Miami Wide Receivers",
+            category: "Miami Receivers",
             words: ["Tyreek Hill", "Cedrick Wilson", "Braxton Berrios", "Durham Smythe"],
             difficulty: 3,
         },
