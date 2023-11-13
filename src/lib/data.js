@@ -22,6 +22,7 @@ export const CONNECTION_GAMES = [
         },
     ],
 
+
     [
         {
             category: "Detroit Lions Players",
@@ -44,6 +45,7 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+
 
     [
         {
@@ -68,6 +70,7 @@ export const CONNECTION_GAMES = [
         },
     ],
 
+
     [
         {
             category: "Career Green Bay Packers",
@@ -90,6 +93,7 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+
 
     [
         {
@@ -114,6 +118,7 @@ export const CONNECTION_GAMES = [
         },
     ],
 
+
     [
         {
             category: "Season Receiving Yards Leaders",
@@ -137,9 +142,10 @@ export const CONNECTION_GAMES = [
         },
     ],
 
+
     [
         {
-            category: "Recent NY Giants Cowboys Tight Ends",
+            category: "Recent NY Giants Tight Ends",
             words: ["Darren Waller", "Daniel Bellinger", "Evan Engram", "Jeremy Shockey"],
             difficulty: 1,
         },
@@ -156,6 +162,77 @@ export const CONNECTION_GAMES = [
         {
             category: "3+ Super Bowl Wins by a Tight End",
             words: ["Randy Grossman", "Marv Fleming", "Rob Gronkowski", "Shannon Sharpe"],
+            difficulty: 4,
+        },
+    ],
+
+
+    [
+        {
+            category: "Legion of Boom Members",
+            words: ["Bobby Wagner", "Richard Sherman", "Cam Chancellor", "Earl Thomas"],
+            difficulty: 1,
+        },
+        {
+            category: "NFL Season Rushing Yards Leaders",
+            words: ["Derrick Henry", "Kareem Hunt", "LaDanian Tomlinson", "Barry Sanders"],
+            difficulty: 2,
+        },
+        {
+            category: "TD Reception from Tom Brady",
+            words: ["Rob Gronkowski", "Randy Moss", "James White", "Julian Edelman"],
+            difficulty: 3,
+        },
+        {
+            category: "NFL Players with 4+ TD in 1 game",
+            words: ["Alvin Kamara", "Travis Kelce", "Marshawn Lynch", "De'Von Achane"],
+            difficulty: 4,
+        },
+    ],
+
+
+    [
+        {
+            category: "Current Baltimore Ravens",
+            words: ["Lamar Jackson", "Zay Flowers", "Marlon Humphrey", "Gus Edwards"],
+            difficulty: 1,
+        },
+        {
+            category: "49ers Defensive Coordinators",
+            words: ["Steve Wilks", "DeMeco Ryans", "Robert Saleh", "Vic Fangio"],
+            difficulty: 2,
+        },
+        {
+            category: "NFL Career Leaders - Field Goal Percentage",
+            words: ["Justin Tucker", "Younghoe Koo", "Harrison Butker", "Daniel Carlson"],
+            difficulty: 3,
+        },
+        {
+            category: "Former NFL Players Turned Coaches",
+            words: ["Jim Harbaugh", "Mike Ditka", "Todd Bowles", "Antonio Pierce"],
+            difficulty: 4,
+        },
+    ],
+
+    [
+        {
+            category: "Commanders Quarterbacks",
+            words: ["Sam Howell", "Kirk Cousins", "Donovan McNabb", "Joe Theismann"],
+            difficulty: 1,
+        },
+        {
+            category: "Most Career Receiving Touchdowns",
+            words: ["Jerry Rice", "Randy Moss", "Terrell Owens", "Cris Carter"],
+            difficulty: 2,
+        },
+        {
+            category: "Super Bowl MVPs",
+            words: ["Tom Brady", "Cooper Kupp", "Eli Manning", "Patrick Mahomes"],
+            difficulty: 3,
+        },
+        {
+            category: "UNC Alumni in the NFL",
+            words: ["Dyami Brown", "Mitch Trubisky", "Javonte Williams", "Joshua Ezeudu"],
             difficulty: 4,
         },
     ],
