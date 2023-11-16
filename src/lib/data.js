@@ -258,4 +258,93 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+    [
+        {
+            category: "Current Cleveland Browns",
+            words: ["Jerome Ford", "Amari Cooper", "David Njoku", "Myles Garrett"],
+            difficulty: 1,
+        },
+        {
+            category: "Defensive Player of the Year Winners",
+            words: ["Aaron Donald", "J.J. Watt", "Khalil Mack", "Luke Kuechly"],
+            difficulty: 2,
+        },
+        {
+            category: "50+ Rushing Yards in a Single Game",
+            words: ["Adrian Peterson", "O.J. Simpson", "DeMarco Murray", "Jonathan Taylor"],
+            difficulty: 3,
+        },
+        {
+            category: "Chicago Bears in the Pro Football Hall of Fame",
+            words: ["Dick Butkus", "Mike Ditka", "Walter Payton", "Brian Urlacher"],
+            difficulty: 4,
+        },
+    ],
+    [
+        {
+            category: "Current Jacksonville Jaguars",
+            words: ["Calvin Ridley", "Josh Allen", "Evan Engram", "Travis Etienne"],
+            difficulty: 1,
+        },
+        {
+            category: "LA Chargers Wide Receivers",
+            words: ["Keenan Allen", "Mike Williams", "Quentin Johnston", "Joshua Palmer"],
+            difficulty: 2,
+        },
+        {
+            category: "1,000+ Receiving Yards in a Rookie Season",
+            words: ["Odell Beckham Jr.", "Anquan Boldin", "Michael Thomas", "A.J. Green"],
+            difficulty: 3,
+        },
+        {
+            category: "2018 NFL Draft 1st Rounders",
+            words: ["Baker Mayfield", "Sam Darnold", "Vita Vea", "Daron Payne"],
+            difficulty: 4,
+        },
+    ],
+    [
+        {
+            category: "Current Philadelphia Eagles",
+            words: ["AJ Brown", "D'Andre Swift", "Lane Johnson", "Jordan Davis"],
+            difficulty: 1,
+        },
+        {
+            category: "NFL Linebackers",
+            words: ["Fred Warner", "Roquan Smith", "CJ Mosley", "Demario Davis"],
+            difficulty: 2,
+        },
+        {
+            category: "Current Backup Running Backs",
+            words: ["Joshua Kelley", "Boston Scott", "Deuce Vaughn", "Samaje Perine"],
+            difficulty: 3,
+        },
+        {
+            category: "50+ Career Interceptions",
+            words: ["Ronnie Lott", "Ed Reed", "Charles Woodson", "Night Train Lane"],
+            difficulty: 4,
+        },
+    ],
+
+    [
+        {
+            category: "Current Seattle Seahawks",
+            words: ["Geno Smith", "Zach Charbonnet", "Quandre Diggs", "Tyler Lockett"],
+            difficulty: 1,
+        },
+        {
+            category: "Recent 49ers Quarterbacks",
+            words: ["Jimmy Garoppolo", "Trey Lance", "Brock Purdy", "Colin Kaepernick"],
+            difficulty: 2,
+        },
+        {
+            category: "Steelers Super Bowl MVPs",
+            words: ["Santonio Holmes", "Hines Ward", "Terry Bradshaw", "Franco Harris"],
+            difficulty: 3,
+        },
+        {
+            category: "AFC West Quarterbacks",
+            words: ["Patrick Mahomes", "Russell Wilson", "Justin Herbert", "Aidan O'Connell"],
+            difficulty: 4,
+        },
+    ],
 ];
