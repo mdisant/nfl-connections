@@ -236,4 +236,26 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+    [
+        {
+            category: "Multi-Sport Athletes",
+            words: ["Deion Sanders", "Bo Jackson", "Russell Wilson", "Tim Tebow"],
+            difficulty: 1,
+        },
+        {
+            category: "Most Rushing Touchdowns in the Playoffs",
+            words: ["Emmitt Smith", "Thurman Thomas", "Franco Harris", "Marshawn Lynch"],
+            difficulty: 2,
+        },
+        {
+            category: "University of Texas Alumni",
+            words: ["Vince Young", "Bijan Robinson", "D'Onta Foreman", "Colt McCoy"],
+            difficulty: 3,
+        },
+        {
+            category: "Sibling in the NFL",
+            words: ["Tiki Barber", "Jason Kelce", "Eli Manning", "Devin McCourty"],
+            difficulty: 4,
+        },
+    ],
 ];
