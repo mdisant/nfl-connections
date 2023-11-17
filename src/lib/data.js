@@ -270,7 +270,7 @@ export const CONNECTION_GAMES = [
             difficulty: 2,
         },
         {
-            category: "50+ Rushing Yards in a Single Game",
+            category: "250+ Rushing Yards in a Single Game",
             words: ["Adrian Peterson", "O.J. Simpson", "DeMarco Murray", "Jonathan Taylor"],
             difficulty: 3,
         },
