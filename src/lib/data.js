@@ -347,4 +347,49 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+    [
+        {
+            category: "NFL Quarterbacks",
+            words: ["Brock Purdy", "Zach Wilson", "Geno Smith", "Matt Stafford"],
+            difficulty: 1,
+        },
+        {
+            category: "Current San Fransisco 49ers",
+            words: ["Deebo Samuel", "George Kittle", "Jake Moody", "Ronnie Bell"],
+            difficulty: 2,
+        },
+        {
+            category: "Defensive Rookie of the Year",
+            words: ["Sauce Gardner", "Micah Parsons", "Chase Young", "Von Miller"],
+            difficulty: 3,
+        },
+        {
+            category: "NFC East Running Backs",
+            words: ["Tony Pollard", "Brian Robinson", "Saquon Barkley", "D'Andre Swift"],
+            difficulty: 4,
+        },
+    ],
+
+    [
+        {
+            category: "AFC West Division",
+            words: ["Chiefs", "Raiders", "Broncos", "Chargers"],
+            difficulty: 1,
+        },
+        {
+            category: "Teams Named After a Bird",
+            words: ["Eagles", "Falcons", "Ravens", "Cardinals"],
+            difficulty: 2,
+        },
+        {
+            category: "Most Super Bowl Wins",
+            words: ["Steelers", "Patriots", "Cowboys", "49ers"],
+            difficulty: 3,
+        },
+        {
+            category: "0 Super Bowl Appearances",
+            words: ["Browns", "Lions", "Jaguars", "Texans"],
+            difficulty: 4,
+        },
+    ]
 ];
