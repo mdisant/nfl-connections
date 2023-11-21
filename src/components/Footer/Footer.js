@@ -42,6 +42,11 @@ function Footer() {
             <div className="text-center text-white pt-6 text-sm">
                 version 1.0
             </div>
+            <div className="text-center text-white pt-6 text-sm">
+                <a href="/privacy.html" className="white hover:underline" target="_blank" rel="noopener noreferrer">
+                    Privacy Policy
+                </a>
+            </div>
         </div>
     );
 }
