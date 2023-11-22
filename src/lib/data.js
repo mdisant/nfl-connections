@@ -391,5 +391,27 @@ export const CONNECTION_GAMES = [
             words: ["Browns", "Lions", "Jaguars", "Texans"],
             difficulty: 4,
         },
-    ]
+    ],
+    [
+        {
+            category: "Current Arizona Cardinals",
+            words: ["Kyler Murray", "James Conner", "Budda Baker", "Rondale Moore"],
+            difficulty: 1,
+        },
+        {
+            category: "Alabama Wide Receivers",
+            words: ["DeVonta Smith", "Jaylen Waddle", "Calvin Ridley", "Julio Jones"],
+            difficulty: 2,
+        },
+        {
+            category: "NFL Safeties",
+            words: ["Derwin James", "Kevin Byard", "Micah Hyde", "Jamal Adams"],
+            difficulty: 3,
+        },
+        {
+            category: "Hall of Fame Wide Receivers",
+            words: ["Randy Moss", "Jerry Rice", "Marvin Harrison", "Cris Carter"],
+            difficulty: 4,
+        },
+    ],
 ];
