@@ -414,4 +414,26 @@ export const CONNECTION_GAMES = [
             difficulty: 4,
         },
     ],
+    [
+        {
+            category: "Current Detroit Lions",
+            words: ["Sam LaPorta", "Craig Reynolds", "Alex Anzalone", "Jared Goff"],
+            difficulty: 1,
+        },
+        {
+            category: "AFC West Wide Receivers",
+            words: ["Rashee Rice", "Courtland Sutton", "Keenan Allen", "Davante Adams"],
+            difficulty: 2,
+        },
+        {
+            category: "Thanksgiving 2023 Quarterbacks",
+            words: ["Brock Purdy", "Sam Howell", "Dak Prescott", "Jordan Love"],
+            difficulty: 3,
+        },
+        {
+            category: "All-Time Cowboys Quarterbacks",
+            words: ["Tony Romo", "Troy Aikman", "Roger Staubach", "Danny White"],
+            difficulty: 4,
+        },
+    ],
 ];
